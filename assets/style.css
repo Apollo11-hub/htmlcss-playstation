@@ -18,22 +18,19 @@ header .sony-header img{
 /*
 JUMBOTRON
 */
-.jumbotron{
-  height: 650px;
-}
 
-.jumbotron:first-of-type{
+.jumbotron{
   height: 675px;
   background-image: url(./img/jumbo-bg.png);
   background-position: center;
 }
 
-.jumbotron:first-of-type h2{
+.jumbotron h2{
   font-size: 50px;
   font-weight: 400;
 }
 
-.jumbotron:first-of-type p{
+.jumbotron p{
   font-size: 20px;
 
 }
@@ -65,22 +62,101 @@ MAIN
 .img-text-ps5-container h2{
   font-size: 50px;
 }
-
 /* TEXT-PS5-CONTAINER */
+
+/* ACCESSORI-CONTAINER */
+.accessori-container p{
+  font-weight: 500;
+}
+/* /ACCESSORI-CONTAINER */
+
+/* JUMBOTRON-TAKES-2 */
+.jumbotron-take{
+  background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+  height: 100vh;
+  background-position: center;
+}
+
+.jumbotron-take img{
+  width: 100%;
+}
+
+.jumbotron-take h2{
+  font-size: 47px;
+  font-weight: 400;
+}
+
+.jumbotron-take p{
+  font-size: 20px;
+}
+/* /JUMBOTRON-TAKES-2 */
+
+/* NUOVE-USCITE */
+.nuove-uscite{
+  background-color: #1f1f1f;
+}
+.nuove-uscite h2{
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.nuove-uscite p{ 
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.nuove-uscite img{
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+/* /NUOVE-USCITE */
+
+/* EXPLORE-PS5 */
+.explore-ps5-container h2{
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.explore-ps5-container p{
+  font-size: 20px;
+}
+
+.explore-ps5-container span{
+  position: relative;
+  bottom: 15px;
+  right: 12px;
+  font-size: 15px;
+}
+/* /EXPLORE-PS5 */
+
+/* ACCESSORI-CONTAINER */
+.accessori-container .card{
+  border: none;
+
+}
+/* /ACCESSORI-CONTAINER */
+
+/* JUMBOTRON-PS-PLUS */
+.jumbotron-psplus .container{
+  background-color: #bebcbb;
+}
+
+.jumbotron-psplus img{
+  width: 100%;
+}
+
+.jumbotron-psplus p{
+  font-weight: 500;
+}
+/* /JUMBOTRON-PS-PLUS */
 
 
 
 /*
 /MAIN
 */
-
-
-
-
-
-
-
-
 
 
 

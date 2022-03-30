@@ -6,6 +6,7 @@
 }
 
 .ap-btn{
+  display:inline-block;
   background-color:red;
   padding: 10px 15px;
   border-radius: 20px;
