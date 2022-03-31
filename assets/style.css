@@ -5,6 +5,10 @@ header .sony-header{
   background-color: black;
 }
 
+header .nav-menu{
+  background-color: white;
+}
+
 header .sony-header img{
   width: 100px;
 }
@@ -23,6 +27,7 @@ JUMBOTRON
   height: 675px;
   background-image: url(./img/jumbo-bg.png);
   background-position: center;
+  margin-top: 100px;
 }
 
 .jumbotron h2{

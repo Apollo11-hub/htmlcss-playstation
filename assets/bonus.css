@@ -1,0 +1,71 @@
+/* BONUS HEADER */  
+
+.ps-5-size{
+  width: 100px;
+}
+.ps-section li:hover{
+  box-shadow: 1px 1px 9px 5px rgba(0,0,0,0.92);
+}
+
+#ps-prima{
+  display: none;
+}
+
+#primo-active:active #ps-prima{
+  display: block;
+}
+
+
+#ps-seconda{
+  display: none;
+}
+
+#secondo-active:active #ps-seconda{
+  display: block;
+}
+
+
+#ps-terza{
+  display: none;
+}
+
+#terzo-active:active #ps-terza{
+  display: block;
+}
+
+
+#ps-quarta{
+  display: none;
+}
+
+#quarto-active:active #ps-quarta{
+  display: block;
+}
+
+
+#ps-quinta{
+  display: none;
+}
+
+#quinto-active:active #ps-quinta{
+  display: block;
+}
+
+
+#ps-sesta{
+  display: none;
+}
+
+#sesto-active:active #ps-sesta{
+  display: block;
+}
+
+
+#ps-special{
+  display: none;
+}
+
+#menu-special:active #ps-special{
+  display: block;
+}
+
