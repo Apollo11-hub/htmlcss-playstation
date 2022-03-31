@@ -5,35 +5,55 @@
   font-family: 'Roboto', sans-serif;
 }
 
+ul{
+  list-style: none;
+}
+
 .ap-btn{
   display:inline-block;
-  background-color:red;
+  background-color:#cd3d0f;
   padding: 10px 15px;
   border-radius: 20px;
   font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border: 2px solid rgba(175, 0, 0, 0);
+  outline: 2px solid rgba(175, 0, 0, 0);
+}
+
+.ap-btn:hover{
+  border: 2px solid #ffffff;
+  outline: 4px solid #cd3d0f;
+}
+
+#ps-plus-btn{
+  background-color:#d9dadc ;
+  color: #205be7;
+}
+
+#ps-plus-btn:hover{
+  border: 2px solid #c0c0c0;
+  outline: 4px solid #aaa9a8;
+}
+
+#ps-now-btn{
+  background-color:#ffffff ;
+  color: #000000;
+}
+
+#ps-now-btn:hover{
+  border: 2px solid #000000;
+  outline: 4px solid #ffffff;
+}
+
+#inform-h:hover{
+  border: 2px solid #ffffff;
+  outline: 4px solid #0d6efd;
 }
 
 
 /* MENU-NAV-MODIFIER */
 
-.dropdown-toggle{
-  font-size: 12px;
-  font-weight: 600;
-}
-
-.dropdown-toggle img{
-  width: 10px;
-}
-
-.dropdown-toggle span{
-  padding-right: 5px;
-}
-
-.dropdown-toggle::after{
-  display: none;
-}
-
-
 /* MENU-NAV-MODIFIER */
 
 
@@ -50,10 +70,10 @@
 
 
 
+<div class="d-none d-lg-block col-lg-6  lh-lg">
 
 
-
-
+<div class="d-none d-lg-block col-2 col-lg-3 offset-lg-2 lh-lg ">
 
 
 

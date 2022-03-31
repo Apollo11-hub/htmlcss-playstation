@@ -49,7 +49,13 @@ MAIN
     width: 100%;
     border-radius: 15px;
     margin-bottom: 15px;
+    cursor: pointer;
   }
+
+  .six-card-container img:hover{
+    transform:translateY(-20px);
+  }
+
 /* /SIX-CARD */
 
 /* TEXT-PS5-CONTAINER */
@@ -68,12 +74,26 @@ MAIN
 .accessori-container p{
   font-weight: 500;
 }
+
+.accessori-container .col{
+  opacity: 0.7;
+  border-bottom: 3px solid white;
+  cursor: pointer;
+}
+.accessori-container .col:hover{
+  opacity:1;
+}
+
+.accessori-container .col:active{
+  opacity: 1;
+  border-bottom: 3px solid green;
+}
+
 /* /ACCESSORI-CONTAINER */
 
 /* JUMBOTRON-TAKES-2 */
 .jumbotron-take{
   background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
-  height: 100vh;
   background-position: center;
 }
 
@@ -134,13 +154,16 @@ MAIN
 /* ACCESSORI-CONTAINER */
 .accessori-container .card{
   border: none;
+}
 
+.accessori-container img{
+  width: 100%;
 }
 /* /ACCESSORI-CONTAINER */
 
 /* JUMBOTRON-PS-PLUS */
-.jumbotron-psplus .container{
-  background-color: #bebcbb;
+.jumbotron-psplus{
+  background-color: #bebcbb ;
 }
 
 .jumbotron-psplus img{
@@ -152,14 +175,61 @@ MAIN
 }
 /* /JUMBOTRON-PS-PLUS */
 
+/* PS-NOW */
+.jumbotron-psnow{
+  background-color: #161c3b;
+}
 
+.jumbotron-psnow img{
+  width: 100%;
+}
+
+.jumbotron-psnow p{
+  font-weight: 500;
+}
+/* /PS-NOW */
+
+/* PS-OCIAL */
+.social h2 {
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.social img{
+  width: 150px;
+}
+
+@media screen and (max-width: 992px) {
+  
+  .social img {
+    width: 100%;
+  }
+}
+/* /PS-OCIAL */
 
 /*
 /MAIN
 */
 
+/*
+FOOTER
+*/
+footer{
+  background-color: #00439c;
+}
+
+footer li{
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+footer p {
+  font-size: 18px;
+  padding: 20px 0px;
+}
 
 
-
-
-
+/*
+/FOOTER
+*/
